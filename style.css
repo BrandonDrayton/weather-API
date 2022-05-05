@@ -1,11 +1,31 @@
-.container {
+.title {
     display: flex;
+    justify-content: center;
+    background: red;
+    background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 .container-inputs {
-    justify-content: space-between;
-    align-items: center;
+    margin: 20px
+}
 
+.container-inputs2 {
+    margin: 20px
+}
+
+.container-inputs3 {
+    margin: 20px
 }
 
 .starting-image {
@@ -28,6 +48,19 @@ body.container {
 .form {
     background-color: rgb(38, 157, 178);
     color: rgb(41, 55, 57)
+}
+
+.weatherForecastF-container {
+    display: flex;
+    justify-content: center;
+    color: rgb(143, 216, 229);
+
+}
+
+.cloudForecast-container {
+    display: flex;
+    justify-content: center;
+    color: rgb(143, 216, 229)
 }
 
 .zipcode {
@@ -56,21 +89,19 @@ input[type=text] {
     border: 0;
     margin: 10px 0;
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-}
-
-.rounded-input {
-    padding: 10px;
-    border-radius: 10px;
+    text-align: center;
 }
 
 button {
     appearance: none;
-    -webkit-appearance: none;
-    padding: 10px;
+
+    padding: 10px 24px;
     border: none;
     background-color: #3F51B5;
     color: #fff;
     font-weight: 600;
     border-radius: 5px;
-    width: 30%;
+    width: 250px;
+    height: 55px;
+
 }

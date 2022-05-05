@@ -11,17 +11,27 @@
 </head>
 
 <body class="container" id="container">
-    <div class="container-inputs" id="container-input">
-        <form action="" id="container-form">
+    <header class="header">
+        <h1 class="title" id="title">My weather app</h1>
+    </header>
+    <form action="" id="container-form" class="form-horizontal">
+        <div class="container-inputs" id="container-input">
             <input type="text" class="zipcode" id="zip-code" placeholder="Enter your zip-code:" />
-            <input type="text" class="country" id="country-code" placeholder="Enter your country initials:" />
-            <button id="search" class="btn btn-primary" type="submit">Seek forth your weather info</button>
-        </form>
-    </div>
-    <main class=container-2>
-        <div class="weatherForecastF" id="weatherForecastF">
         </div>
-        <div class="cloudForecast" id="cloudForecast">
+        <div class="container-inputs2" id="container-input">
+            <input type="text" class="country" id="country-code" placeholder="Enter your country initials:" />
+        </div>
+        <div class="container-inputs3" id="container-input"></div>
+        <button id="search" class="btn btn-primary" type="submit">Seek forth your weather info</button>
+        </div>
+    </form>
+
+    <main class=container-2>
+        <div class="weatherForecastF-container" id="weatherForecastF-container">
+            <h2 class="weatherForecastF" id="weatherForecastF"></h2>
+        </div>
+        <div class="cloudForecast-container" id="cloudForecast-container">
+            <h2 class="cloudForecast" id="cloudForecast"></h2>
         </div>
     </main>
 

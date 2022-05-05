@@ -49,9 +49,13 @@ search.addEventListener("submit", (e) => {
                     else if (cloud == "scattered clouds") {
                         document.body.style.backgroundImage = 'url("ScatteredClouds.jpg")'
                     }
-                    // } else if (categoryValue == 'Rain') {
-                    //     document.body.style.backgroundImage = 'url("../pictures/rain.jpg")';
-                    // }
+                    else if (cloud == 'rain') {
+                        document.body.style.backgroundImage = 'url("Rain.jpg")';
+                    }
+                    else if (cloud == 'thunderstorm') {
+                        document.body.style.backgroundImage = 'url("Thunderstorm.jpg")';
+                    }
+                    search.reset()
                 })
 
         })
