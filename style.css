@@ -1,3 +1,8 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -21,7 +26,8 @@
 }
 
 .container-inputs2 {
-    margin: 20px
+    margin: 20px;
+    padding-left: 17px;
 }
 
 .container-inputs3 {
@@ -64,7 +70,7 @@ body.container {
 }
 
 .zipcode {
-    width: 200px;
+    width: 100%;
     padding: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -72,7 +78,7 @@ body.container {
 }
 
 .country {
-    width: 200px;
+    width: 100%;
     padding: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -94,14 +100,13 @@ input[type=text] {
 
 button {
     appearance: none;
-
     padding: 10px 24px;
     border: none;
     background-color: #3F51B5;
     color: #fff;
     font-weight: 600;
     border-radius: 5px;
-    width: 250px;
+    width: auto;
     height: 55px;
 
 }
