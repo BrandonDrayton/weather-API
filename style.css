@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+}
+
+.container-inputs {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.starting-image {
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed
+}
+
+body.container {
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-image: url("Background.jpg")
+}
+
+.form {
+    background-color: rgb(38, 157, 178);
+    color: rgb(41, 55, 57)
+}
+
+.zipcode {
+    width: 200px;
+    padding: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.country {
+    width: 200px;
+    padding: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.border-bottom-input {
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+
+input[type=text] {
+    padding: 10px;
+    border: 0;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.rounded-input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #3F51B5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 30%;
+}
